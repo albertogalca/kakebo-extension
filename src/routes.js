@@ -7,6 +7,7 @@ const routes = [
     actions: [
       {
         name: 'Sí',
+        secondary: true,
         linkTo: '/canyouaffordit',
       },
       {
@@ -23,6 +24,7 @@ const routes = [
     actions: [
       {
         name: 'Sí',
+        secondary: true,
         linkTo: '/doyouneedanythingelse',
       },
       {
@@ -39,6 +41,7 @@ const routes = [
     actions: [
       {
         name: 'Sí',
+        secondary: true,
         linkTo: '/reviewyourpriorities',
       },
       {
@@ -55,6 +58,7 @@ const routes = [
     actions: [
       {
         name: 'Sí',
+        secondary: true,
         linkTo: '/doyouhavemoneytospare',
       },
       {
@@ -71,6 +75,7 @@ const routes = [
     actions: [
       {
         name: 'Sí',
+        secondary: true,
         linkTo: '/buyifyouneedit',
       },
       {
@@ -87,6 +92,7 @@ const routes = [
     actions: [
       {
         name: 'Sí',
+        secondary: true,
         linkTo: '/shareitwithsomeone',
       },
       {
@@ -103,6 +109,7 @@ const routes = [
     actions: [
       {
         name: 'Sí',
+        secondary: true,
         linkTo: '/buyifyouneedit',
       },
       {
@@ -119,6 +126,7 @@ const routes = [
     actions: [
       {
         name: 'Sí',
+        secondary: true,
         linkTo: '/getitsecondhand',
       },
       {
@@ -135,6 +143,7 @@ const routes = [
     actions: [
       {
         name: 'Sí',
+        secondary: true,
         linkTo: '/itsapresent',
       },
       {
@@ -151,6 +160,7 @@ const routes = [
     actions: [
       {
         name: 'Sí',
+        secondary: true,
         linkTo: '/donthesitate',
       },
       {
@@ -167,6 +177,7 @@ const routes = [
     actions: [
       {
         name: 'Sí',
+        secondary: true,
         linkTo: '/donthesitate',
       },
       {
@@ -183,6 +194,7 @@ const routes = [
     actions: [
       {
         name: 'Sí',
+        secondary: true,
         linkTo: '/doyouhavemoneytospare',
       },
       {
@@ -199,6 +211,7 @@ const routes = [
     actions: [
       {
         name: 'Sí',
+        secondary: true,
         linkTo: '/whatareyouthinking',
       },
       {
@@ -215,6 +228,7 @@ const routes = [
     actions: [
       {
         name: 'Sí',
+        secondary: true,
         linkTo: '/reviewyourpriorities',
       },
       {
@@ -232,6 +246,7 @@ const routes = [
       {
         name: 'Valorar extensión',
         external: true,
+        secondary: true,
         linkTo: 'https://chrome.google.com/webstore/category/extensions?hl=es',
       },
       {
@@ -250,6 +265,7 @@ const routes = [
       {
         name: 'Valorar extensión',
         external: true,
+        secondary: true,
         linkTo: 'https://chrome.google.com/webstore/category/extensions?hl=es',
       },
       {
@@ -268,6 +284,7 @@ const routes = [
       {
         name: 'Valorar extensión',
         external: true,
+        secondary: true,
         linkTo: 'https://chrome.google.com/webstore/category/extensions?hl=es',
       },
       {
@@ -286,6 +303,7 @@ const routes = [
       {
         name: 'Sácame de aquí ',
         external: true,
+        secondary: true,
         linkTo: 'https://www.google.es/',
       },
       {
@@ -303,6 +321,7 @@ const routes = [
       {
         name: 'Sácame de aquí ',
         external: true,
+        secondary: true,
         linkTo: 'https://www.google.es/',
       },
       {
@@ -320,6 +339,7 @@ const routes = [
       {
         name: 'Sácame de aquí ',
         external: true,
+        secondary: true,
         linkTo: 'https://www.google.es/',
       },
       {

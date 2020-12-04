@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 
-import { Link } from 'react-router-dom';
-import { H1, Paragraph } from '../index';
+import { H1, Paragraph, Button } from '../index';
 
 const Wrapper = styled.div`
   width: 100%;
@@ -29,6 +28,13 @@ const Modal = styled.div`
   margin: 16px;
 `;
 
+const Footer = styled.footer`
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
 export default ({ title, description, actions }) => {
   const [isVisible, setIsVisible] = useState(true);
 
@@ -38,15 +44,30 @@ export default ({ title, description, actions }) => {
         <Modal>
           <H1>{title}</H1>
           <Paragraph>{description}</Paragraph>
-          {actions &&
-            actions.map(action => {
-              if (!action.external && action.linkTo === 'close')
-                return <button onClick={() => setIsVisible(false)}>{action.name}</button>;
+          <Footer>
+            {actions &&
+              actions.map(action => {
+                if (!action.external && action.linkTo === 'close')
+                  return (
+                    <Button secondary={action.secondary} onClick={() => setIsVisible(false)}>
+                      {action.name}
+                    </Button>
+                  );
 
-              if (action.external) return <a href={action.linkTo}>{action.name}</a>;
+                if (action.external)
+                  return (
+                    <Button secondary={action.secondary} as="a" href={action.linkTo}>
+                      {action.name}
+                    </Button>
+                  );
 
-              return <Link to={action.linkTo}>{action.name}</Link>;
-            })}
+                return (
+                  <Button secondary={action.secondary} as="link" to={action.linkTo}>
+                    {action.name}
+                  </Button>
+                );
+              })}
+          </Footer>
         </Modal>
       </Wrapper>
     )
