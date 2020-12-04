@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import Steps from '../Steps';
+
 const Wrapper = styled.div`
   width: 100%;
   height: 100vh;
@@ -24,15 +26,10 @@ const Modal = styled.div`
   padding: 32px;
 `;
 
-export default () => {
+export default ({ children }) => {
   return (
     <Wrapper>
-      <Modal>
-        <h1>Ahorrar con el método Kakebo</h1>
-        <p>
-          ¡Oinc, oinc! Soy el cerdito ahorrador y voy a vigilar todos tus movimientos para ayudarte.
-        </p>
-      </Modal>
+      <Modal>{children}</Modal>
     </Wrapper>
   );
 };
