@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
   "version": "1.0.0",
-  "name": "__MSG_appName__",
-  "short_name": "__MSG_appShortName__",
-  "description": "__MSG_appDesc__",
-  "default_locale": "en",
+  "name": "Ahorra con Kakebo",
+  "short_name": "Ahorra con Kakebo",
+  "description": "Extensión que te permite ahorrar",
+  "default_locale": "es",
   "options_ui": {
     "page": "options.html"
   },
