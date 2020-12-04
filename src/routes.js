@@ -231,11 +231,13 @@ const routes = [
     actions: [
       {
         name: 'Valorar extensión',
-        linkTo: '/',
+        external: true,
+        linkTo: 'https://chrome.google.com/webstore/category/extensions?hl=es',
       },
       {
-        name: 'Sácame de aquí',
-        linkTo: '/',
+        name: 'Sácame de aquí ',
+        external: true,
+        linkTo: 'https://www.google.es/',
       },
     ],
   },
@@ -247,11 +249,13 @@ const routes = [
     actions: [
       {
         name: 'Valorar extensión',
-        linkTo: '/',
+        external: true,
+        linkTo: 'https://chrome.google.com/webstore/category/extensions?hl=es',
       },
       {
-        name: 'Sácame de aquí',
-        linkTo: '/',
+        name: 'Sácame de aquí ',
+        external: true,
+        linkTo: 'https://www.google.es/',
       },
     ],
   },
@@ -263,11 +267,13 @@ const routes = [
     actions: [
       {
         name: 'Valorar extensión',
-        linkTo: '/',
+        external: true,
+        linkTo: 'https://chrome.google.com/webstore/category/extensions?hl=es',
       },
       {
-        name: 'Sácame  de aquí',
-        linkTo: '/',
+        name: 'Sácame de aquí ',
+        external: true,
+        linkTo: 'https://www.google.es/',
       },
     ],
   },
@@ -278,12 +284,13 @@ const routes = [
     slug: '/donthesitate',
     actions: [
       {
-        name: 'Sácame de aquí',
-        linkTo: '/',
+        name: 'Sácame de aquí ',
+        external: true,
+        linkTo: 'https://www.google.es/',
       },
       {
         name: 'Déjame comprar',
-        linkTo: '/',
+        linkTo: 'close',
       },
     ],
   },
@@ -295,11 +302,12 @@ const routes = [
     actions: [
       {
         name: 'Sácame de aquí ',
-        linkTo: '/',
+        external: true,
+        linkTo: 'https://www.google.es/',
       },
       {
         name: 'Déjame comprar',
-        linkTo: '/',
+        linkTo: 'close',
       },
     ],
   },
@@ -310,12 +318,13 @@ const routes = [
     slug: '/nothingelsetosay',
     actions: [
       {
-        name: 'Sácame de aquí',
-        linkTo: '/',
+        name: 'Sácame de aquí ',
+        external: true,
+        linkTo: 'https://www.google.es/',
       },
       {
         name: 'Déjame comprar',
-        linkTo: '/',
+        linkTo: 'close',
       },
     ],
   },
