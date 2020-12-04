@@ -1,6 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import { Link } from 'react-router-dom';
+import { H1, Paragraph } from '../index';
+
 const Wrapper = styled.div`
   width: 100%;
   height: 100%;
@@ -26,10 +29,14 @@ const Modal = styled.div`
   margin: 16px;
 `;
 
-export default ({ children }) => {
+export default ({ title, description, actions }) => {
   return (
     <Wrapper>
-      <Modal>{children}</Modal>
+      <Modal>
+        <H1>{title}</H1>
+        <Paragraph>{description}</Paragraph>
+        {actions && actions.map(action => <Link to={action.linkTo}>{action.name}</Link>)}
+      </Modal>
     </Wrapper>
   );
 };

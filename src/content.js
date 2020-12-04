@@ -5,7 +5,8 @@ import { ThemeProvider, StyleSheetManager } from 'styled-components';
 import defaultTheme from 'themes/default';
 import { Switch, Route, MemoryRouter } from 'react-router-dom';
 
-import { Welcome, DoYouNeedIt, CanYouAffordIt } from './screens';
+import { KakeboModal } from './components';
+import routes from './routes';
 
 const root = document.createElement('div');
 const shadow = root.attachShadow({ mode: 'open' });
@@ -25,15 +26,15 @@ const App = () => {
         <MemoryRouter>
           <div>
             <Switch>
-              <Route path="/doyouneedit">
-                <DoYouNeedIt />
-              </Route>
-              <Route path="/canyouaffordit">
-                <CanYouAffordIt />
-              </Route>
-              <Route path="/">
-                <Welcome />
-              </Route>
+              {routes.map(route => (
+                <Route path={route.slug}>
+                  <KakeboModal
+                    actions={route.actions}
+                    title={route.title}
+                    description={route.description}
+                  />
+                </Route>
+              ))}
             </Switch>
           </div>
         </MemoryRouter>
