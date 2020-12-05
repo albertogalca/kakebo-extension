@@ -8,6 +8,8 @@ import { Switch, Route, MemoryRouter } from 'react-router-dom';
 import { KakeboModal } from './components';
 import routes from './routes';
 
+import './assets/styles.css';
+
 const root = document.createElement('div');
 const shadow = root.attachShadow({ mode: 'open' });
 
@@ -32,6 +34,7 @@ const App = () => {
                     actions={route.actions}
                     title={route.title}
                     description={route.description}
+                    gif={route.gif}
                   />
                 </Route>
               ))}
