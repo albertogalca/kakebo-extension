@@ -4,7 +4,7 @@
   "name": "Ahorra con Kakebo",
   "short_name": "Ahorra con Kakebo",
   "description": "Extensión que te permite ahorrar",
-  "default_locale": "es",
+  "default_locale": "en",
   "options_ui": {
     "page": "options.html"
   },
