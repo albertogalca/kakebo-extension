@@ -3,6 +3,8 @@ import styled from 'styled-components';
 
 import { H1, Paragraph, Button } from '../index';
 
+import logo from '../../assets/img/logo.png';
+
 const Wrapper = styled.div`
   width: 100%;
   height: 100%;
@@ -22,10 +24,19 @@ const Modal = styled.div`
   background-color: white;
   border-radius: 20px;
   width: 100%;
-  max-width: 600px;
-  padding: 32px;
+  max-width: 671px;
+  padding: 56px 100px;
   text-align: center;
   margin: 16px;
+  box-sizing: border-box;
+  box-shadow: 0 11px 23px 0 rgba(0, 0, 0, 0.18);
+`;
+
+const StyledImg = styled.img`
+  width: 100%;
+  height: 271px;
+  object-fit: cover;
+  margin: 24px 0;
 `;
 
 const Footer = styled.footer`
@@ -35,15 +46,19 @@ const Footer = styled.footer`
   justify-content: center;
 `;
 
-export default ({ title, description, actions }) => {
+export default ({ title, description, gif, actions }) => {
   const [isVisible, setIsVisible] = useState(true);
 
   return (
     isVisible && (
       <Wrapper>
         <Modal>
+          <header>
+            <img src={require('../../assets/img/logo.png')} alt="logo" />
+          </header>
           <H1>{title}</H1>
           <Paragraph>{description}</Paragraph>
+          <StyledImg src={gif} alt={title} />
           <Footer>
             {actions &&
               actions.map(action => {
