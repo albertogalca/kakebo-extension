@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
+import { useResponsive } from 'react-hooks-responsive';
 
 import { H1, Paragraph, Button } from '../index';
 
@@ -22,13 +23,21 @@ const Modal = styled.div`
   background-color: white;
   border-radius: 20px;
   width: 100%;
-  max-width: 671px;
-  padding: 56px 100px;
   text-align: center;
   margin: 16px;
   box-sizing: border-box;
   box-shadow: 0 11px 23px 0 rgba(0, 0, 0, 0.18);
   position: relative;
+
+  ${props =>
+    props.isDesktop
+      ? `
+    max-width: 671px;
+    padding: 56px 100px;
+  `
+      : `
+    padding: 32px;
+  `}
 `;
 
 const StyledImg = styled.img`
@@ -43,6 +52,15 @@ const Footer = styled.footer`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  ${props =>
+    props.isDesktop
+      ? `
+    flex-flow: row nowrap;
+  `
+      : `
+    flex-flow: column nowrap;
+  `}
 `;
 
 const Logo = styled.img`
@@ -50,38 +68,57 @@ const Logo = styled.img`
   left: 32px;
 `;
 
+const ButtonWrapper = styled.div`
+  ${props =>
+    !props.isDesktop &&
+    `
+    margin-bottom: 12px;
+`}
+`;
+
+const breakpoints = { xs: 0, sm: 480, md: 1024 };
+
 export default ({ title, description, gif, actions }) => {
   const [isVisible, setIsVisible] = useState(true);
+  const { screenIsAtLeast } = useResponsive(breakpoints);
+
+  const isDesktop = screenIsAtLeast('md');
 
   return (
     isVisible && (
       <Wrapper>
-        <Modal>
-          <Logo src="https://i.imgur.com/EFaR68V.png" width="70" alt="logo" />
+        <Modal isDesktop={isDesktop}>
+          {isDesktop && <Logo src="https://i.imgur.com/EFaR68V.png" width="70" alt="logo" />}
           <H1>{title}</H1>
           <Paragraph>{description}</Paragraph>
           <StyledImg src={gif} alt={title} />
-          <Footer>
+          <Footer isDesktop={isDesktop}>
             {actions &&
               actions.map(action => {
                 if (!action.external && action.linkTo === 'close')
                   return (
-                    <Button secondary={action.secondary} onClick={() => setIsVisible(false)}>
-                      {action.name}
-                    </Button>
+                    <ButtonWrapper isDesktop={isDesktop}>
+                      <Button secondary={action.secondary} onClick={() => setIsVisible(false)}>
+                        {action.name}
+                      </Button>
+                    </ButtonWrapper>
                   );
 
                 if (action.external)
                   return (
-                    <Button secondary={action.secondary} as="a" href={action.linkTo}>
-                      {action.name}
-                    </Button>
+                    <ButtonWrapper isDesktop={isDesktop}>
+                      <Button secondary={action.secondary} as="a" href={action.linkTo}>
+                        {action.name}
+                      </Button>
+                    </ButtonWrapper>
                   );
 
                 return (
-                  <Button secondary={action.secondary} as="link" to={action.linkTo}>
-                    {action.name}
-                  </Button>
+                  <ButtonWrapper isDesktop={isDesktop}>
+                    <Button secondary={action.secondary} as="link" to={action.linkTo}>
+                      {action.name}
+                    </Button>
+                  </ButtonWrapper>
                 );
               })}
           </Footer>

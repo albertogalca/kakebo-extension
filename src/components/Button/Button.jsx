@@ -23,7 +23,7 @@ const getButtonStyle = ({ secondary }) => {
         background-color: transparent;
         color: rgba(243, 144, 226, 1);
         box-shadow: 0 6px 12px 0 rgba(244, 144, 225, 0.5);
-        border: solid 2px #f290e3;
+        border: 2px solid #f290e3;
     `;
 
   return `
@@ -31,6 +31,7 @@ const getButtonStyle = ({ secondary }) => {
         border-radius: 27.5px;
         box-shadow: 0 6px 12px 0 rgba(244, 144, 225, 0.5);
         background-color: #f490e1;
+        border: 2px solid #f290e3;
     `;
 };
 
