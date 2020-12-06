@@ -21,7 +21,7 @@ const routes = [
     title: '¿Te lo puedes permitir?',
     description:
       'En ocasiones hay que saber tener la cabeza fría y esperar el momento adecuado para gastar el dinero, pero este no es el momento ¡Oinc!',
-    gif: 'https://media.giphy.com/media/uyWTOgNGGWfks/giphy-downsized.gif',
+    gif: 'https://media.giphy.com/media/ckNFgnUmAuFcYmWR3a/giphy.gif',
     slug: '/canyouaffordit',
     actions: [
       {
@@ -57,7 +57,7 @@ const routes = [
     title: '¿Existe alguna alternativa más económica?',
     description:
       'Siempre hay una mejor opción, simplemente tienes que buscar en el lugar correcto. Por ejemplo, ayer encontré lo que busca en la pocilga de al lado ¡Oinc, oinc!',
-    gif: 'https://media.giphy.com/media/XdUMiySExIdwvsPOpP/giphy-downsized.gif',
+    gif: 'https://media.giphy.com/media/XdUMiySExIdwvsPOpP/giphy.gif',
     slug: '/isthereacheaperalternative',
     actions: [
       {
@@ -129,7 +129,7 @@ const routes = [
     title: '¿Es para ti?',
     description:
       'Piensa que si te autoengañas el que sufre es tu bolsillo... Además yo te veo muy bien, con este producto sólo serás un poco más pobre.',
-    gif: 'https://media.giphy.com/media/AgWQwLTByaABsBQ9Zf/giphy-downsized.gif',
+    gif: 'https://media.giphy.com/media/AgWQwLTByaABsBQ9Zf/giphy.gif',
     slug: '/itsforyou',
     actions: [
       {
@@ -165,7 +165,7 @@ const routes = [
     title: '¿Es por una buena causa?',
     description:
       '¡Qué bonito es colaborar por una bonita causa! Eso sí, como no digas la verdad esta mentira te va a perseguir toda la vida...¿Podrás soportar eso? ¡Oinc!',
-    gif: 'https://media.giphy.com/media/8vOEzk2nJpIAFMkyqT/giphy-downsized.gif',
+    gif: 'https://media.giphy.com/media/8vOEzk2nJpIAFMkyqT/giphy.gif',
     slug: '/itsforagoodcause',
     actions: [
       {
@@ -219,7 +219,7 @@ const routes = [
     title: '¿Lo puedes pedir prestado?',
     description:
       'Sé que tu primer impulso es comprar esto...¿pero seguro que no hay nadie de tu entorno para poder pedírselo prestado? Tendrás lo que buscas sin gastarte nada. ¡Es genial!',
-    gif: 'https://media.giphy.com/media/XrP2J7AL4CYmc/giphy-downsized.gif',
+    gif: 'https://media.giphy.com/media/XrP2J7AL4CYmc/giphy.gif',
     slug: '/borrowingfromsomeone',
     actions: [
       {
@@ -315,7 +315,7 @@ const routes = [
     title: 'No lo dudes más',
     description:
       'A esto en mi casa se le llama comprar "bueno, bonito y barato"...¡Como cerdo experto en el ahorro te doy el visto bueno a esta compra! Disfruta de este producto ¡Oinc, oinc!',
-    gif: 'https://media.giphy.com/media/3AxD04J9yX8yY/giphy-downsized.gif',
+    gif: 'https://media.giphy.com/media/3AxD04J9yX8yY/giphy.gif',
     slug: '/donthesitate',
     actions: [
       {
