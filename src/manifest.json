@@ -17,7 +17,15 @@
   "content_scripts": [
     {
       "all_frames": false,
-      "matches": ["https://www.amazon.es/*"],
+      "matches": [
+        "https://www.amazon.es/*/dp/*",
+        "https://www.amazon.com/*/dp/*",
+        "https://www.amazon.es/dp/*",
+        "https://www.amazon.com/dp/*",
+        "https://www.ebay.es/itm/*",
+        "https://www.ebay.com/itm/*",
+        "https://*.aliexpress.com/item/*"
+      ],
       "js": ["content.js"]
     }
   ],
