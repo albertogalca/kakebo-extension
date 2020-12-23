@@ -369,7 +369,7 @@ const routes = [
     ],
   },
   {
-    title: 'Ahorra con el método Kakebo',
+    title: '¡No compres!',
     description:
       '¡Oinc, oinc! Soy el cerdito ahorrador y voy a vigilar todos tus movimientos para ayudarte',
     gif: 'https://media.giphy.com/media/ND6xkVPaj8tHO/giphy-downsized.gif',

@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Don't buy!",
+    "message": "¡No compres!",
     "description": "The title of the application, displayed in the web store."
   },
   "appShortName": {
-    "message": "Don't buy!",
+    "message": "¡No compres!",
     "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name. "
   },
   "appDesc": {
-    "message": "If you buy everything you see on the Internet... this is your extension! it will help you save money, when you have a temptation the extension will activate and prevent you from buying. At the moment you least expect it, the extension will ask you deep questions to convince you not to buy. If you beat it, it will let you buy. This extension is free and we will not save your data.",
+    "message": "Si tienes poca fuerza de voluntad y compras todo lo que ves por internet... ¡esta es tu extensión! te ayudará a ahorrar dinerito, cuando tengas una tentación la extensión se activará e impedirá que compres. En el momento que menos te lo esperes la extensión te hará preguntas profundas para convencerte de que no compres. Si le ganas te dejará comprar. Esta extensión es gratuita y no guardaremos tus datos.",
     "description": "The description of the application, displayed in the web store."
   }
 }

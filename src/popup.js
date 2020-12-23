@@ -52,7 +52,7 @@ const Popup = () => {
         <GlobalStyle />
         <Header>
           <Logo src="https://i.imgur.com/EFaR68V.png" width="50" alt="logo" />
-          <H2>Ahorra con el Método Kakebo</H2>
+          <H2>¡No compres!</H2>
         </Header>
 
         <StyledParagraph>
