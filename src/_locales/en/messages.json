@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "React Web Extension Boilerplate",
+    "message": "Don't buy!",
     "description": "The title of the application, displayed in the web store."
   },
   "appShortName": {
-    "message": "RWEB",
+    "message": "Don't buy!",
     "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name. "
   },
   "appDesc": {
-    "message": "This app does something awesome.",
+    "message": "If you buy everything you see on the Internet... this is your extension! it will help you save money, when you have a temptation the extension will activate and prevent you from buying. At the moment you least expect it, the extension will ask you deep questions to convince you not to buy. If you beat it, it will let you buy. This extension is free and we will not save your data.",
     "description": "The description of the application, displayed in the web store."
   }
 }
