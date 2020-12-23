@@ -1,7 +1,4 @@
 {
-  "greeting": {
-    "message": "Hello, World!"
-  },
   "appName": {
     "message": "React Web Extension Boilerplate",
     "description": "The title of the application, displayed in the web store."
