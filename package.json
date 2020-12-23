@@ -1,6 +1,6 @@
 {
   "version": "0.0.1",
-  "name": "ahorra_con_kakebo",
+  "name": "no_compres",
   "scripts": {
     "build": "cross-env NODE_ENV=production yarn webpack -c webpack.config.js --mode production",
     "watch": "cross-env NODE_ENV=development yarn webpack -c webpack.config.js --mode development -w"
