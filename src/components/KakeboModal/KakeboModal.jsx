@@ -115,7 +115,12 @@ export default ({ title, description, gif, actions }) => {
 
                 return (
                   <ButtonWrapper isDesktop={isDesktop}>
-                    <Button secondary={action.secondary} as="link" to={action.linkTo}>
+                    <Button
+                      onClick={action.onClick}
+                      secondary={action.secondary}
+                      as="link"
+                      to={action.linkTo}
+                    >
                       {action.name}
                     </Button>
                   </ButtonWrapper>

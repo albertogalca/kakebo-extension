@@ -377,6 +377,7 @@ const routes = [
     actions: [
       {
         name: 'Entendido',
+        onClick: () => window.localStorage.setItem('userHasSeenTheIntroduction', true),
         linkTo: '/doyouneedit',
       },
     ],
