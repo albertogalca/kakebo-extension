@@ -7,12 +7,12 @@ const routes = [
     slug: '/doyouneedit',
     actions: [
       {
-        name: 'Sí',
+        name: 'yesButton',
         secondary: true,
         linkTo: '/canyouaffordit',
       },
       {
-        name: 'No',
+        name: 'noButton',
         linkTo: '/itsforyou',
       },
     ],
@@ -25,12 +25,12 @@ const routes = [
     slug: '/canyouaffordit',
     actions: [
       {
-        name: 'Sí',
+        name: 'yesButton',
         secondary: true,
         linkTo: '/doyouneedanythingelse',
       },
       {
-        name: 'No',
+        name: 'noButton',
         linkTo: '/isthereacheaperalternative',
       },
     ],
@@ -43,12 +43,12 @@ const routes = [
     slug: '/doyouneedanythingelse',
     actions: [
       {
-        name: 'Sí',
+        name: 'yesButton',
         secondary: true,
         linkTo: '/reviewyourpriorities',
       },
       {
-        name: 'No',
+        name: 'noButton',
         linkTo: '/bestqualitypriceoption',
       },
     ],
@@ -61,12 +61,12 @@ const routes = [
     slug: '/isthereacheaperalternative',
     actions: [
       {
-        name: 'Sí',
+        name: 'yesButton',
         secondary: true,
         linkTo: '/doyouhavemoneytospare',
       },
       {
-        name: 'No',
+        name: 'noButton',
         linkTo: '/bestqualitypriceoption',
       },
     ],
@@ -79,12 +79,12 @@ const routes = [
     slug: '/bestqualitypriceoption',
     actions: [
       {
-        name: 'Sí',
+        name: 'yesButton',
         secondary: true,
         linkTo: '/buyifyouneedit',
       },
       {
-        name: 'No',
+        name: 'noButton',
         linkTo: '/thinktwice',
       },
     ],
@@ -97,12 +97,12 @@ const routes = [
     slug: '/doyouhavemoneytospare',
     actions: [
       {
-        name: 'Sí',
+        name: 'yesButton',
         secondary: true,
         linkTo: '/shareitwithsomeone',
       },
       {
-        name: 'No',
+        name: 'noButton',
         linkTo: '/enoughtmoneyattheendofthemonth',
       },
     ],
@@ -115,12 +115,12 @@ const routes = [
     slug: '/enoughtmoneyattheendofthemonth',
     actions: [
       {
-        name: 'Sí',
+        name: 'yesButton',
         secondary: true,
         linkTo: '/buyifyouneedit',
       },
       {
-        name: 'No',
+        name: 'noButton',
         linkTo: '/thinktwice',
       },
     ],
@@ -133,12 +133,12 @@ const routes = [
     slug: '/itsforyou',
     actions: [
       {
-        name: 'Sí',
+        name: 'yesButton',
         secondary: true,
         linkTo: '/getitsecondhand',
       },
       {
-        name: 'No',
+        name: 'noButton',
         linkTo: '/shareitwithsomeone',
       },
     ],
@@ -151,12 +151,12 @@ const routes = [
     slug: '/shareitwithsomeone',
     actions: [
       {
-        name: 'Sí',
+        name: 'yesButton',
         secondary: true,
         linkTo: '/itsapresent',
       },
       {
-        name: 'No',
+        name: 'noButton',
         linkTo: '/itsforagoodcause',
       },
     ],
@@ -164,17 +164,17 @@ const routes = [
   {
     title: '¿Es por una buena causa?',
     description:
-      '¡Qué bonito es colaborar por una bonita causa! Eso sí, como no digas la verdad esta mentira te va a perseguir toda la vida...¿Podrás soportar eso? ¡Oinc!',
+      '¡Qué bonito es colaborar por una bonita causa! Eso yesButton, como no digas la verdad esta mentira te va a perseguir toda la vida...¿Podrás soportar eso? ¡Oinc!',
     gif: 'https://media.giphy.com/media/8vOEzk2nJpIAFMkyqT/giphy.gif',
     slug: '/itsforagoodcause',
     actions: [
       {
-        name: 'Sí',
+        name: 'yesButton',
         secondary: true,
         linkTo: '/donthesitate',
       },
       {
-        name: 'No',
+        name: 'noButton',
         linkTo: '/whatareyouthinking',
       },
     ],
@@ -182,17 +182,17 @@ const routes = [
   {
     title: '¿Es un regalo?',
     description:
-      '¿Qué mejor que celebrar algo que con un buen regalo? Eso sí, tu empieza a gastar que lo que hoy es celebración a final de mes quizás se convierte en un drama...',
+      '¿Qué mejor que celebrar algo que con un buen regalo? Eso yesButton, tu empieza a gastar que lo que hoy es celebración a final de mes quizás se convierte en un drama...',
     gif: 'https://media.giphy.com/media/kKo2x2QSWMNfW/giphy-downsized.gif',
     slug: '/itsapresent',
     actions: [
       {
-        name: 'Sí',
+        name: 'yesButton',
         secondary: true,
         linkTo: '/donthesitate',
       },
       {
-        name: 'No',
+        name: 'noButton',
         linkTo: '/itsforagoodcause',
       },
     ],
@@ -205,12 +205,12 @@ const routes = [
     slug: '/getitsecondhand',
     actions: [
       {
-        name: 'Sí',
+        name: 'yesButton',
         secondary: true,
         linkTo: '/doyouhavemoneytospare',
       },
       {
-        name: 'No',
+        name: 'noButton',
         linkTo: '/borrowingfromsomeone ',
       },
     ],
@@ -223,12 +223,12 @@ const routes = [
     slug: '/borrowingfromsomeone',
     actions: [
       {
-        name: 'Sí',
+        name: 'yesButton',
         secondary: true,
         linkTo: '/whatareyouthinking',
       },
       {
-        name: 'No',
+        name: 'noButton',
         linkTo: '/doityourself',
       },
     ],
@@ -241,12 +241,12 @@ const routes = [
     slug: '/doityourself',
     actions: [
       {
-        name: 'Sí',
+        name: 'yesButton',
         secondary: true,
         linkTo: '/reviewyourpriorities',
       },
       {
-        name: 'No',
+        name: 'noButton',
         linkTo: '/buyifyouneedit',
       },
     ],
@@ -254,18 +254,19 @@ const routes = [
   {
     title: '¡Revisa tus prioridades!',
     description:
-      'Parece que tienes otros asuntos por resolver antes de comprar esto que tanto te interesaba al principio. No parece que sea lo más urgente que tienes que comprar ahora mismo, así que aguanta, sé fuerte y cierra esta web sin mirar atrás. ¡Tu amigo, el cerdo del ahorro, está contigo! ¡Oinc!',
+      'Parece que tienes otros asuntos por resolver antes de comprar esto que tanto te interesaba al principio. No parece que sea lo más urgente que tienes que comprar ahora mismo, ayesButton que aguanta, sé fuerte y cierra esta web sin mirar atrás. ¡Tu amigo, el cerdo del ahorro, está contigo! ¡Oinc!',
     gif: 'https://media.giphy.com/media/xUA7biThNaTvj5GiZi/giphy-downsized.gif',
     slug: '/reviewyourpriorities',
     actions: [
       {
-        name: 'Valorar extensión',
+        name: 'evaluateExtensionButton',
         external: true,
         secondary: true,
-        linkTo: 'https://chrome.google.com/webstore/category/extensions?hl=es',
+        linkTo:
+          'https://chrome.google.com/webstore/detail/%C2%A1no-compres/fjnifndlflhmdlcgkcalclaenojogdpj?hl=es',
       },
       {
-        name: 'Sácame de aquí ',
+        name: 'takeMeOutButton',
         external: true,
         linkTo: 'https://www.google.es/',
       },
@@ -279,13 +280,14 @@ const routes = [
     slug: '/thinktwice',
     actions: [
       {
-        name: 'Valorar extensión',
+        name: 'evaluateExtensionButton',
         external: true,
         secondary: true,
-        linkTo: 'https://chrome.google.com/webstore/category/extensions?hl=es',
+        linkTo:
+          'https://chrome.google.com/webstore/detail/%C2%A1no-compres/fjnifndlflhmdlcgkcalclaenojogdpj?hl=es',
       },
       {
-        name: 'Sácame de aquí ',
+        name: 'takeMeOutButton',
         external: true,
         linkTo: 'https://www.google.es/',
       },
@@ -299,13 +301,14 @@ const routes = [
     slug: '/whatareyouthinking',
     actions: [
       {
-        name: 'Valorar extensión',
+        name: 'evaluateExtensionButton',
         external: true,
         secondary: true,
-        linkTo: 'https://chrome.google.com/webstore/category/extensions?hl=es',
+        linkTo:
+          'https://chrome.google.com/webstore/detail/%C2%A1no-compres/fjnifndlflhmdlcgkcalclaenojogdpj?hl=es',
       },
       {
-        name: 'Sácame de aquí ',
+        name: 'takeMeOutButton',
         external: true,
         linkTo: 'https://www.google.es/',
       },
@@ -319,13 +322,13 @@ const routes = [
     slug: '/donthesitate',
     actions: [
       {
-        name: 'Sácame de aquí ',
+        name: 'takeMeOutButton',
         external: true,
         secondary: true,
         linkTo: 'https://www.google.es/',
       },
       {
-        name: 'Déjame comprar',
+        name: 'letMeBuyButton',
         linkTo: 'close',
       },
     ],
@@ -338,13 +341,13 @@ const routes = [
     slug: '/buyifyouneedit',
     actions: [
       {
-        name: 'Sácame de aquí ',
+        name: 'takeMeOutButton',
         external: true,
         secondary: true,
         linkTo: 'https://www.google.es/',
       },
       {
-        name: 'Déjame comprar',
+        name: 'letMeBuyButton',
         linkTo: 'close',
       },
     ],
@@ -357,13 +360,13 @@ const routes = [
     slug: '/nothingelsetosay',
     actions: [
       {
-        name: 'Sácame de aquí ',
+        name: 'takeMeOutButton',
         external: true,
         secondary: true,
         linkTo: 'https://www.google.es/',
       },
       {
-        name: 'Déjame comprar',
+        name: 'letMeBuyButton',
         linkTo: 'close',
       },
     ],
@@ -376,7 +379,7 @@ const routes = [
     slug: '/',
     actions: [
       {
-        name: 'Entendido',
+        name: 'understoodButton',
         onClick: () => window.localStorage.setItem('userHasSeenTheIntroduction', true),
         linkTo: '/doyouneedit',
       },
