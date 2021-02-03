@@ -10,5 +10,33 @@
   "appDesc": {
     "message": "Si tienes poca fuerza de voluntad y compras todo lo que ves por internet... ¡esta es tu extensión!",
     "description": "The description of the application, displayed in the web store."
+  },
+  "popupDescription": {
+    "message": "Oinc, oinc! I'm the thrifty piggy and I'm going to watch your every move to help you.",
+    "description": "popup description"
+  },
+  "yesButton": {
+    "message": "Yes",
+    "description": "Yes button"
+  },
+  "noButton": {
+    "message": "No",
+    "description": "No button"
+  },
+  "evaluateExtensionButton": {
+    "message": "Evaluate extension",
+    "description": "Evaluate extension button"
+  },
+  "takeMeOutButton": {
+    "message": "Take me out of here",
+    "description": "Take me out of here button"
+  },
+  "letMeBuyButton": {
+    "message": "Let me buy",
+    "description": "Let me buy button"
+  },
+  "understoodButton": {
+    "message": "Understood",
+    "description": "Understood button"
   }
 }

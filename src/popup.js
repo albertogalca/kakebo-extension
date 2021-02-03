@@ -52,12 +52,9 @@ const Popup = () => {
         <GlobalStyle />
         <Header>
           <Logo src="https://i.imgur.com/EFaR68V.png" width="50" alt="logo" />
-          <H2>¡No compres!</H2>
+          <H2>{chrome.i18n.getMessage('appName')}</H2>
         </Header>
-
-        <StyledParagraph>
-          ¡Oinc, oinc! Soy el cerdito ahorrador y voy a vigilar todos tus movimientos para ayudarte.
-        </StyledParagraph>
+        <StyledParagraph>{chrome.i18n.getMessage('popupDescription')}</StyledParagraph>
       </Container>
     </Box>
   );

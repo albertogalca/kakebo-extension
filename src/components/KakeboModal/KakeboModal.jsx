@@ -99,7 +99,7 @@ export default ({ title, description, gif, actions }) => {
                   return (
                     <ButtonWrapper isDesktop={isDesktop}>
                       <Button secondary={action.secondary} onClick={() => setIsVisible(false)}>
-                        {action.name}
+                        {chrome.i18n.getMessage(action.name)}
                       </Button>
                     </ButtonWrapper>
                   );
@@ -108,7 +108,7 @@ export default ({ title, description, gif, actions }) => {
                   return (
                     <ButtonWrapper isDesktop={isDesktop}>
                       <Button secondary={action.secondary} as="a" href={action.linkTo}>
-                        {action.name}
+                        {chrome.i18n.getMessage(action.name)}
                       </Button>
                     </ButtonWrapper>
                   );
@@ -121,7 +121,7 @@ export default ({ title, description, gif, actions }) => {
                       as="link"
                       to={action.linkTo}
                     >
-                      {action.name}
+                      {chrome.i18n.getMessage(action.name)}
                     </Button>
                   </ButtonWrapper>
                 );
