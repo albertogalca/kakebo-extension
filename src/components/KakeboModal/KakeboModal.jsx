@@ -89,8 +89,8 @@ export default ({ title, description, gif, actions }) => {
       <Wrapper>
         <Modal isDesktop={isDesktop}>
           {isDesktop && <Logo src="https://i.imgur.com/EFaR68V.png" width="70" alt="logo" />}
-          <H1>{title}</H1>
-          <Paragraph>{description}</Paragraph>
+          <H1>{chrome.i18n.getMessage(title)}</H1>
+          <Paragraph>{chrome.i18n.getMessage(description)}</Paragraph>
           <StyledImg src={gif} alt={title} />
           <Footer isDesktop={isDesktop}>
             {actions &&

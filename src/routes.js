@@ -263,7 +263,7 @@ const routes = [
         external: true,
         secondary: true,
         linkTo:
-          'https://chrome.google.com/webstore/detail/%C2%A1no-compres/fjnifndlflhmdlcgkcalclaenojogdpj?hl=es',
+          'https://chrome.google.com/webstore/detail/%C2%A1no-compres/fjnifndlflhmdlcgkcalclaenojogdpj',
       },
       {
         name: 'takeMeOutButton',
@@ -284,7 +284,7 @@ const routes = [
         external: true,
         secondary: true,
         linkTo:
-          'https://chrome.google.com/webstore/detail/%C2%A1no-compres/fjnifndlflhmdlcgkcalclaenojogdpj?hl=es',
+          'https://chrome.google.com/webstore/detail/%C2%A1no-compres/fjnifndlflhmdlcgkcalclaenojogdpj',
       },
       {
         name: 'takeMeOutButton',
@@ -305,7 +305,7 @@ const routes = [
         external: true,
         secondary: true,
         linkTo:
-          'https://chrome.google.com/webstore/detail/%C2%A1no-compres/fjnifndlflhmdlcgkcalclaenojogdpj?hl=es',
+          'https://chrome.google.com/webstore/detail/%C2%A1no-compres/fjnifndlflhmdlcgkcalclaenojogdpj',
       },
       {
         name: 'takeMeOutButton',
@@ -315,9 +315,8 @@ const routes = [
     ],
   },
   {
-    title: 'No lo dudes más',
-    description:
-      'A esto en mi casa se le llama comprar "bueno, bonito y barato"...¡Como cerdo experto en el ahorro te doy el visto bueno a esta compra! Disfruta de este producto ¡Oinc, oinc!',
+    title: 'dontHesitateTitle',
+    description: 'dontHesitateDescription',
     gif: 'https://media.giphy.com/media/3AxD04J9yX8yY/giphy.gif',
     slug: '/donthesitate',
     actions: [
@@ -334,9 +333,8 @@ const routes = [
     ],
   },
   {
-    title: 'Cómpralo si de verdad lo necesitas',
-    description:
-      'Todo gasto no justificado al 100% pasa a ser una compra más emocional que racional...Entiendo que ahí vosotros los humanos lo tenéis complicado para detener el impulso...¡oinc, oinc!',
+    title: 'buyIfYouNeedItTitle',
+    description: 'buyIfYouNeedItDescription',
     gif: 'https://media.giphy.com/media/6qFFgNgextP9u/giphy-downsized.gif',
     slug: '/buyifyouneedit',
     actions: [
@@ -353,9 +351,8 @@ const routes = [
     ],
   },
   {
-    title: 'No hay mucho más que decir...Si lo quieres lo puedes tener',
-    description:
-      '¡Oinc! Llegas a fin de mes, pero por lo que me has dicho no te sobra el dinero...Tú  decides si haces feliz a este humilde cerdito ahorrador (y a tu cartera) y huyes de esta web o sacias tu despiada parte consumista que tienes como humano. Ya ves que mi frase no te condiciona para nada, eh? ¡Oinc, oinc!',
+    title: 'nothingElseToSayTitle',
+    description: 'nothingElseToSayDescription',
     gif: 'https://media.giphy.com/media/COObcw2dmXzBm/giphy-downsized.gif',
     slug: '/nothingelsetosay',
     actions: [
@@ -372,9 +369,8 @@ const routes = [
     ],
   },
   {
-    title: '¡No compres!',
-    description:
-      '¡Oinc, oinc! Soy el cerdito ahorrador y voy a vigilar todos tus movimientos para ayudarte',
+    title: 'appName',
+    description: 'popupDescription',
     gif: 'https://media.giphy.com/media/ND6xkVPaj8tHO/giphy-downsized.gif',
     slug: '/',
     actions: [

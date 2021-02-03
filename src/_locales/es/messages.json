@@ -38,5 +38,29 @@
   "understoodButton": {
     "message": "Entendido",
     "description": "Understood button"
+  },
+  "nothingElseToSayTitle": {
+    "message": "No hay mucho más que decir...Si lo quieres lo puedes tener",
+    "description": "nothingElseToSayTitle"
+  },
+  "nothingElseToSayDescription": {
+    "message": "¡Oinc! Llegas a fin de mes, pero por lo que me has dicho no te sobra el dinero...Tú  decides si haces feliz a este humilde cerdito ahorrador (y a tu cartera) y huyes de esta web o sacias tu despiada parte consumista que tienes como humano. Ya ves que mi frase no te condiciona para nada, eh? ¡Oinc, oinc!",
+    "description": "nothingElseToSayDescription"
+  },
+  "buyIfYouNeedItTitle": {
+    "message": "Cómpralo si de verdad lo necesitas",
+    "description": "buyIfYouNeedItTitle"
+  },
+  "buyIfYouNeedItDescription": {
+    "message": "Todo gasto no justificado al 100% pasa a ser una compra más emocional que racional...Entiendo que ahí vosotros los humanos lo tenéis complicado para detener el impulso...¡oinc, oinc!",
+    "description": "buyIfYouNeedItDescription"
+  },
+  "dontHesitateTitle": {
+    "message": "No lo dudes más",
+    "description": "dontHesitateTitle"
+  },
+  "dontHesitateDescription": {
+    "message": "A esto en mi casa se le llama comprar 'bueno, bonito y barato'...¡Como cerdo experto en el ahorro te doy el visto bueno a esta compra! Disfruta de este producto ¡Oinc, oinc!",
+    "description": "dontHesitateDescription"
   }
 }

@@ -38,5 +38,29 @@
   "understoodButton": {
     "message": "Understood",
     "description": "Understood button"
+  },
+  "nothingElseToSayTitle": {
+    "message": "Not much more to say... If you want it you can have it",
+    "description": "nothingElseToSayTitle"
+  },
+  "nothingElseToSayDescription": {
+    "message": "Oinc! You make ends meet, but from what you've told me you don't have money to spare... You decide if you make this humble thrifty piggy (and your wallet) happy and run away from this website or you satiate your ruthless consumerist part that you have as a human being. You can see that my sentence doesn't condition you at all, eh? oinc, oinc!",
+    "description": "nothingElseToSayDescription"
+  },
+  "buyIfYouNeedItTitle": {
+    "message": "Buy it if you really need it",
+    "description": "buyIfYouNeedItTitle"
+  },
+  "buyIfYouNeedItDescription": {
+    "message": "Any expense that is not 100% justified becomes a purchase that is more emotional than rational...I understand that you humans have a hard time stopping the impulse...oinc, oinc!",
+    "description": "buyIfYouNeedItDescription"
+  },
+  "dontHesitateTitle": {
+    "message": "Don't hesitate any longer",
+    "description": "dontHesitateTitle"
+  },
+  "dontHesitateDescription": {
+    "message": "In my house this is called buying 'good, nice and cheap'... As a savings expert pig I give you a thumbs up on this purchase! Enjoy this product Oinc, oinc, oinc!",
+    "description": "dontHesitateDescription"
   }
 }
