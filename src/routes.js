@@ -253,7 +253,7 @@ const routes = [
       {
         name: 'takeMeOutButton',
         external: true,
-        linkTo: 'https://www.google.es/',
+        linkTo: 'https://www.notion.so/albertogallego/Directory-fc1028d87ab2412eb6fd7c9cdd48aef1',
       },
     ],
   },
@@ -273,7 +273,7 @@ const routes = [
       {
         name: 'takeMeOutButton',
         external: true,
-        linkTo: 'https://www.google.es/',
+        linkTo: 'https://www.notion.so/albertogallego/Directory-fc1028d87ab2412eb6fd7c9cdd48aef1',
       },
     ],
   },
@@ -293,7 +293,7 @@ const routes = [
       {
         name: 'takeMeOutButton',
         external: true,
-        linkTo: 'https://www.google.es/',
+        linkTo: 'https://www.notion.so/albertogallego/Directory-fc1028d87ab2412eb6fd7c9cdd48aef1',
       },
     ],
   },
@@ -307,7 +307,7 @@ const routes = [
         name: 'takeMeOutButton',
         external: true,
         secondary: true,
-        linkTo: 'https://www.google.es/',
+        linkTo: 'https://www.notion.so/albertogallego/Directory-fc1028d87ab2412eb6fd7c9cdd48aef1',
       },
       {
         name: 'letMeBuyButton',
@@ -325,7 +325,7 @@ const routes = [
         name: 'takeMeOutButton',
         external: true,
         secondary: true,
-        linkTo: 'https://www.google.es/',
+        linkTo: 'https://www.notion.so/albertogallego/Directory-fc1028d87ab2412eb6fd7c9cdd48aef1',
       },
       {
         name: 'letMeBuyButton',
@@ -343,7 +343,7 @@ const routes = [
         name: 'takeMeOutButton',
         external: true,
         secondary: true,
-        linkTo: 'https://www.google.es/',
+        linkTo: 'https://www.notion.so/albertogallego/Directory-fc1028d87ab2412eb6fd7c9cdd48aef1',
       },
       {
         name: 'letMeBuyButton',
