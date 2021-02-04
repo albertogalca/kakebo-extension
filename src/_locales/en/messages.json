@@ -1,18 +1,18 @@
 {
   "appName": {
-    "message": "¡No compres!",
+    "message": "Don't buy!",
     "description": "The title of the application, displayed in the web store."
   },
   "appShortName": {
-    "message": "¡No compres!",
+    "message": "Don't buy!",
     "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name. "
   },
   "appDesc": {
-    "message": "Si tienes poca fuerza de voluntad y compras todo lo que ves por internet... ¡esta es tu extensión!",
+    "message": "If you have little willpower and buy everything you see on the internet... this is your extension!",
     "description": "The description of the application, displayed in the web store."
   },
   "popupDescription": {
-    "message": "Oinc, oinc! I'm the thrifty piggy and I'm going to watch your every move to help you.",
+    "message": "Oink, oink! I'm the thrifty piggy and I'm going to watch your every move to help you.",
     "description": "popup description"
   },
   "yesButton": {
@@ -44,7 +44,7 @@
     "description": "nothingElseToSayTitle"
   },
   "nothingElseToSayDescription": {
-    "message": "Oinc! You make ends meet, but from what you've told me you don't have money to spare... You decide if you make this humble thrifty piggy (and your wallet) happy and run away from this website or you satiate your ruthless consumerist part that you have as a human being. You can see that my sentence doesn't condition you at all, eh? oinc, oinc!",
+    "message": "Oink! You make ends meet, but from what you've told me you don't have money to spare... You decide if you make this humble thrifty piggy (and your wallet) happy and run away from this website or you satiate your ruthless consumerist part that you have as a human being. You can see that my sentence doesn't condition you at all, eh? oink, oink!",
     "description": "nothingElseToSayDescription"
   },
   "buyIfYouNeedItTitle": {
@@ -52,7 +52,7 @@
     "description": "buyIfYouNeedItTitle"
   },
   "buyIfYouNeedItDescription": {
-    "message": "Any expense that is not 100% justified becomes a purchase that is more emotional than rational...I understand that you humans have a hard time stopping the impulse...oinc, oinc!",
+    "message": "Any expense that is not 100% justified becomes a purchase that is more emotional than rational...I understand that you humans have a hard time stopping the impulse...oink, oink!",
     "description": "buyIfYouNeedItDescription"
   },
   "dontHesitateTitle": {
@@ -60,7 +60,143 @@
     "description": "dontHesitateTitle"
   },
   "dontHesitateDescription": {
-    "message": "In my house this is called buying 'good, nice and cheap'... As a savings expert pig I give you a thumbs up on this purchase! Enjoy this product Oinc, oinc, oinc!",
+    "message": "In my house this is called buying 'good, nice and cheap'... As a savings expert pig I give you a thumbs up on this purchase! Enjoy this product Oink, oink, oink!",
     "description": "dontHesitateDescription"
+  },
+  "doYouNeedItTitle": {
+    "message": "Do you really need it?",
+    "description": "doYouNeedItTitle"
+  },
+  "doYouNeedItDescription": {
+    "message": "Oink, oink! I caught you looking at this product! Watch out because sites like this can leave you without a single coin in the bank... Do you need it that much?",
+    "description": "doYouNeedItDescription"
+  },
+  "canYouAffordItTitle": {
+    "message": "Can you afford it?",
+    "description": "canYouAffordItTitle"
+  },
+  "canYouAffordItDescription": {
+    "message": "Sometimes you have to know how to keep a cool head and wait for the right moment to spend money, but this is not the right time... Oink!",
+    "description": "canYouAffordItDescription"
+  },
+  "doYouNeedAnythingElseTitle": {
+    "message": "Is there anything you need more than that?",
+    "description": "doYouNeedAnythingElseTitle"
+  },
+  "doYouNeedAnythingElseDescription": {
+    "message": "Think, think...that thing you said one day that you needed more than anything else in the world...What was it?...Before spending the money, check your shopping list",
+    "description": "doYouNeedAnythingElseDescription"
+  },
+  "isThereACheaperAlternativeTitle": {
+    "message": "Is there a cheaper alternative?",
+    "description": "isThereACheaperAlternativeTitle"
+  },
+  "isThereACheaperAlternativeDescription": {
+    "message": "There is always a better option, you just have to look in the right place. For example, yesterday I found what you are looking for in the next sty.",
+    "description": "isThereACheaperAlternativeTitle"
+  },
+  "bestQualityPriceOptionTitle": {
+    "message": "Is it the best value for money?",
+    "description": "bestQualityPriceOptionTitle"
+  },
+  "bestQualityPriceOptionDescription": {
+    "message": "You seem to have it pretty clear...but isn't there really something just as good and cheaper? You can find the bargain you are looking for in the most unexpected places. Are you sure you have looked everywhere?",
+    "description": "bestQualityPriceOptionTitle"
+  },
+  "doYouHaveMoneyToSpareTitle": {
+    "message": "Do you have money to spare?",
+    "description": "doYouHaveMoneyToSpareTitle"
+  },
+  "doYouHaveMoneyToSpareDescription": {
+    "message": "Think that what you buy today is money you won't have tomorrow! What a profound reflection I just made for a pig...Oink!",
+    "description": "doYouHaveMoneyToSpareDescription"
+  },
+  "enoughtMoneyAtTheEndOfTheMonthTitle": {
+    "message": "Do you have enough money at the end of the month?",
+    "description": "enoughtMoneyAtTheEndOfTheMonthTitle"
+  },
+  "enoughtMoneyAtTheEndOfTheMonthDescription": {
+    "message": "A month can be very long because of a bad decision... And if that bad decision is to press this button...? You can no longer say that you have not been warned....",
+    "description": "enoughtMoneyAtTheEndOfTheMonthDescription"
+  },
+  "itsForYouTitle": {
+    "message": "Is it for you?",
+    "description": "itsForYouTitle"
+  },
+  "itsForYouDescription": {
+    "message": "Just think that if you deceive yourself, it's your pocket that suffers... Besides I see you very well, with this product you will only be a little poorer",
+    "description": "itsForYouDescription"
+  },
+  "shareItWithSomeoneTitle": {
+    "message": "Can you share it with someone?",
+    "description": "shareItWithSomeoneTitle"
+  },
+  "shareItWithSomeoneDescription": {
+    "message": "Shared product, shared costs... right? You can also try to get the other person to buy it and lend it to you for free, orinc!",
+    "description": "shareItWithSomeoneDescription"
+  },
+  "itsForAGoodCauseTitle": {
+    "message": "Is it for a good cause?",
+    "description": "itsForAGoodCauseTitle"
+  },
+  "itsForAGoodCauseDescription": {
+    "message": "How nice it is to collaborate for a beautiful cause! But if you don't tell the truth, this lie will haunt you for the rest of your life... Will you be able to bear it? Oink!",
+    "description": "itsForAGoodCauseDescription"
+  },
+  "itsAPresentTitle": {
+    "message": "Is it a gift?",
+    "description": "itsAPresentTitle"
+  },
+  "itsAPresentDescription": {
+    "message": "What better way to celebrate something than with a good gift? Of course, you start spending, because what today is a celebration at the end of the month may turn into a drama...",
+    "description": "itsAPresentDescription"
+  },
+  "getItSecondHandTitle": {
+    "message": "Can you get it second hand?",
+    "description": "getItSecondHandTitle"
+  },
+  "getItSecondHandDescription": {
+    "message": "If you look hard enough you can find things with hardly any use and much cheaper than buying them new.",
+    "description": "getItSecondHandDescription"
+  },
+  "borrowingFromSomeoneTitle": {
+    "message": "Can you borrow it?",
+    "description": "borrowingFromSomeoneTitle"
+  },
+  "borrowingFromSomeoneDescription": {
+    "message": "I know your first impulse is to buy this...but surely there's no one around you to borrow it from? You'll get what you're looking for without spending anything. That's great!",
+    "description": "borrowingFromSomeoneDescription"
+  },
+  "doItYourselfTitle": {
+    "message": "Can you do it yourself?",
+    "description": "doItYourselfTitle"
+  },
+  "doItYourselfDescription": {
+    "message": "In addition to developing your most creative side, doing something manual is always more special and surely makes more illusion ... What if you had not even considered it? I've tried it once, but with my little legs I can't do much...Oink, oink!",
+    "description": "doItYourselfDescription"
+  },
+  "reviewYourPrioritiesTitle": {
+    "message": "Check your priorities!",
+    "description": "reviewYourPrioritiesTitle"
+  },
+  "reviewYourPrioritiesDescription": {
+    "message": "It looks like you have other issues to resolve before you buy this thing you were so interested in at first. It doesn't look like it's the most urgent thing you have to buy right now, so hang in there, be strong and close this website without looking back, your friend, the savings pig, is with you! Oink!",
+    "description": "reviewYourPrioritiesDescription"
+  },
+  "thinkTwiceTitle": {
+    "message": "Think twice",
+    "description": "thinkTwiceTitle"
+  },
+  "thinkTwiceDescription": {
+    "message": "You're going to 'spend for the sake of spending' and you're trying to delude yourself...For the sake of your pocketbook my advice is to run away from here like a pig running away from the shower...Oink, oink!",
+    "description": "thinkTwiceDescription"
+  },
+  "whatAreYouThinkingTitle": {
+    "message": "¡En qué estás pensando!",
+    "description": "whatAreYouThinkingTitle"
+  },
+  "whatAreYouThinkingDescription": {
+    "message": "Oink! Oink! Oink! Forgive my exaltation, I'm coming at top speed (as far as my little legs can reach) to prevent you from making a mistake like this... Think about it, you still have time to make the right decision...",
+    "description": "whatAreYouThinkingDescription"
   }
 }

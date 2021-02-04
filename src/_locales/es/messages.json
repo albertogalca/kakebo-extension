@@ -62,5 +62,141 @@
   "dontHesitateDescription": {
     "message": "A esto en mi casa se le llama comprar 'bueno, bonito y barato'...¡Como cerdo experto en el ahorro te doy el visto bueno a esta compra! Disfruta de este producto ¡Oinc, oinc!",
     "description": "dontHesitateDescription"
+  },
+  "doYouNeedItTitle": {
+    "message": "¿Realmente lo necesitas?",
+    "description": "doYouNeedItTitle"
+  },
+  "doYouNeedItDescription": {
+    "message": "¡Oinc, oinc! ¡Te he pillado viendo este producto! Cuidado porque sitios como este te pueden dejar sin una triste moneda en el banco...¿Tanta falta te hace?",
+    "description": "doYouNeedItDescription"
+  },
+  "canYouAffordItTitle": {
+    "message": "¿Te lo puedes permitir?",
+    "description": "canYouAffordItTitle"
+  },
+  "canYouAffordItDescription": {
+    "message": "En ocasiones hay que saber tener la cabeza fría y esperar el momento adecuado para gastar el dinero, pero este no es el momento ¡Oinc!",
+    "description": "canYouAffordItDescription"
+  },
+  "doYouNeedAnythingElseTitle": {
+    "message": "¿Hay algo que necesites más que eso?",
+    "description": "doYouNeedAnythingElseTitle"
+  },
+  "doYouNeedAnythingElseDescription": {
+    "message": "Piensa, piensa...aquello que comentaste un día que necesitabas más que nada en el mundo...¿Qué era?...Antes de gastarte el dinero consulta tu lista de la compra",
+    "description": "doYouNeedAnythingElseDescription"
+  },
+  "isThereACheaperAlternativeTitle": {
+    "message": "¿Existe alguna alternativa más económica?",
+    "description": "isThereACheaperAlternativeTitle"
+  },
+  "isThereACheaperAlternativeDescription": {
+    "message": "Siempre hay una mejor opción, simplemente tienes que buscar en el lugar correcto. Por ejemplo, ayer encontré lo que busca en la pocilga de al lado ¡Oinc, oinc!",
+    "description": "isThereACheaperAlternativeTitle"
+  },
+  "bestQualityPriceOptionTitle": {
+    "message": "¿Es la mejor opción calidad - precio?",
+    "description": "bestQualityPriceOptionTitle"
+  },
+  "bestQualityPriceOptionDescription": {
+    "message": "Parece que lo tienes muy claro...pero ¿de verdad no hay algo igual de bueno y más barato? Puedes encontrar el chollo que buscas en los lugares más insospechados. ¿Seguro que has mirado bien por todos lados?",
+    "description": "bestQualityPriceOptionTitle"
+  },
+  "doYouHaveMoneyToSpareTitle": {
+    "message": "¿Te sobra el dinero?",
+    "description": "doYouHaveMoneyToSpareTitle"
+  },
+  "doYouHaveMoneyToSpareDescription": {
+    "message": "¡Piensa que lo que compres hoy es dinero que ya no tendrás mañana! Qué reflexión tan profunda acabo de hacer para ser un cerdo...¡Oinc!",
+    "description": "doYouHaveMoneyToSpareDescription"
+  },
+  "enoughtMoneyAtTheEndOfTheMonthTitle": {
+    "message": "¿Llegas con suficiente dinero a final de mes?",
+    "description": "enoughtMoneyAtTheEndOfTheMonthTitle"
+  },
+  "enoughtMoneyAtTheEndOfTheMonthDescription": {
+    "message": "Un mes se puede hacer muy largo por una mala decisión...¿Y si esa mala decisión es darle a este botón...? Ya no podrás decir que no te han avisado...",
+    "description": "enoughtMoneyAtTheEndOfTheMonthDescription"
+  },
+  "itsForYouTitle": {
+    "message": "¿Es para ti?",
+    "description": "itsForYouTitle"
+  },
+  "itsForYouDescription": {
+    "message": "Piensa que si te autoengañas el que sufre es tu bolsillo... Además yo te veo muy bien, con este producto sólo serás un poco más pobre",
+    "description": "itsForYouDescription"
+  },
+  "shareItWithSomeoneTitle": {
+    "message": "¿Lo puedes compartir con alguien?",
+    "description": "shareItWithSomeoneTitle"
+  },
+  "shareItWithSomeoneDescription": {
+    "message": "Producto compartido, gastos a medias...¿no? También puedes probar de que lo compre la otra persona y te lo preste gratis. ¡Oinc!",
+    "description": "shareItWithSomeoneDescription"
+  },
+  "itsForAGoodCauseTitle": {
+    "message": "¿Es por una buena causa?",
+    "description": "itsForAGoodCauseTitle"
+  },
+  "itsForAGoodCauseDescription": {
+    "message": "¡Qué bonito es colaborar por una bonita causa! Eso sí, como no digas la verdad esta mentira te va a perseguir toda la vida...¿Podrás soportar eso? ¡Oinc!",
+    "description": "itsForAGoodCauseDescription"
+  },
+  "itsAPresentTitle": {
+    "message": "¿Es un regalo?",
+    "description": "itsAPresentTitle"
+  },
+  "itsAPresentDescription": {
+    "message": "¿Qué mejor que celebrar algo que con un buen regalo? Eso sí, tu empieza a gastar que lo que hoy es celebración a final de mes quizás se convierte en un drama...",
+    "description": "itsAPresentDescription"
+  },
+  "getItSecondHandTitle": {
+    "message": "¿Lo puedes conseguir de segunda mano?",
+    "description": "getItSecondHandTitle"
+  },
+  "getItSecondHandDescription": {
+    "message": "Si buscas bien encuentras cosas sin apenas uso y mucho más baratas que comprándolas nuevas",
+    "description": "getItSecondHandDescription"
+  },
+  "borrowingFromSomeoneTitle": {
+    "message": "¿Lo puedes pedir prestado?",
+    "description": "borrowingFromSomeoneTitle"
+  },
+  "borrowingFromSomeoneDescription": {
+    "message": "Sé que tu primer impulso es comprar esto...¿pero seguro que no hay nadie de tu entorno para poder pedírselo prestado? Tendrás lo que buscas sin gastarte nada. ¡Es genial!",
+    "description": "borrowingFromSomeoneDescription"
+  },
+  "doItYourselfTitle": {
+    "message": "¿Lo puedes hacer tu mismo/a?",
+    "description": "doItYourselfTitle"
+  },
+  "doItYourselfDescription": {
+    "message": "Además de desarrollar tu parte más creativa, hacer algo manual siempre es más especial y seguro que hace más ilusión...¿A qué no te lo habías ni planteado? Yo alguna vez lo he intentado pero con mis patitas no me dan para mucho...¡Oinc, oinc!",
+    "description": "doItYourselfDescription"
+  },
+  "reviewYourPrioritiesTitle": {
+    "message": "¡Revisa tus prioridades!",
+    "description": "reviewYourPrioritiesTitle"
+  },
+  "reviewYourPrioritiesDescription": {
+    "message": "Parece que tienes otros asuntos por resolver antes de comprar esto que tanto te interesaba al principio. No parece que sea lo más urgente que tienes que comprar ahora mismo, así que aguanta, sé fuerte y cierra esta web sin mirar atrás. ¡Tu amigo, el cerdo del ahorro, está contigo! ¡Oinc!",
+    "description": "reviewYourPrioritiesDescription"
+  },
+  "thinkTwiceTitle": {
+    "message": "Piénsalo dos veces",
+    "description": "thinkTwiceTitle"
+  },
+  "thinkTwiceDescription": {
+    "message": "Vas a 'gastar por gastar' y estás intentando autoengañarte...Por el bien de tu bolsillo mi consejo es que huyas de aquí como cerdo que huye de la ducha...¡Oinc, oinc!",
+    "description": "thinkTwiceDescription"
+  },
+  "whatAreYouThinkingTitle": {
+    "message": "¡En qué estás pensando!",
+    "description": "whatAreYouThinkingTitle"
+  },
+  "whatAreYouThinkingDescription": {
+    "message": "¡Oinc! ¡Oinc! ¡Oinc! Perdona mi exaltación, que vengo a máxima velocidad (lo que alcanzan mis patitas) para impedir que cometas un error como este...Piénsatelo bien, aún estás a tiempo de tomar la decisión correcta...",
+    "description": "whatAreYouThinkingDescription"
   }
 }

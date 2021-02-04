@@ -1,8 +1,7 @@
 const routes = [
   {
-    title: '¿Realmente lo necesitas?',
-    description:
-      '¡Oinc, oinc! ¡Te he pillado viendo este producto! Cuidado porque sitios como este te pueden dejar sin una triste moneda en el banco...¿Tanta falta te hace?',
+    title: 'doYouNeedItTitle',
+    description: 'doYouNeedItDescription',
     gif: 'https://media.giphy.com/media/26uf12pHJ1mTPVT2w/giphy-downsized.gif',
     slug: '/doyouneedit',
     actions: [
@@ -18,9 +17,8 @@ const routes = [
     ],
   },
   {
-    title: '¿Te lo puedes permitir?',
-    description:
-      'En ocasiones hay que saber tener la cabeza fría y esperar el momento adecuado para gastar el dinero, pero este no es el momento ¡Oinc!',
+    title: 'canYouAffordItTitle',
+    description: 'canYouAffordItDescription',
     gif: 'https://media.giphy.com/media/ckNFgnUmAuFcYmWR3a/giphy.gif',
     slug: '/canyouaffordit',
     actions: [
@@ -36,9 +34,8 @@ const routes = [
     ],
   },
   {
-    title: '¿Hay algo que necesites más que eso',
-    description:
-      'Piensa, piensa...aquello que comentaste un día que necesitabas más que nada en el mundo...¿Qué era?...Antes de gastarte el dinero consulta tu lista de la compra',
+    title: 'doYouNeedAnythingElseTitle',
+    description: 'doYouNeedAnythingElseDescription',
     gif: ' https://media.giphy.com/media/a5viI92PAF89q/giphy-downsized.gif',
     slug: '/doyouneedanythingelse',
     actions: [
@@ -54,9 +51,8 @@ const routes = [
     ],
   },
   {
-    title: '¿Existe alguna alternativa más económica?',
-    description:
-      'Siempre hay una mejor opción, simplemente tienes que buscar en el lugar correcto. Por ejemplo, ayer encontré lo que busca en la pocilga de al lado ¡Oinc, oinc!',
+    title: 'isThereACheaperAlternativeTitle',
+    description: 'isThereACheaperAlternativeDescription',
     gif: 'https://media.giphy.com/media/XdUMiySExIdwvsPOpP/giphy.gif',
     slug: '/isthereacheaperalternative',
     actions: [
@@ -72,9 +68,8 @@ const routes = [
     ],
   },
   {
-    title: '¿Es la mejor opción calidad - precio?',
-    description:
-      'Parece que lo tienes muy claro...pero ¿de verdad no hay algo igual de bueno y más barato? Puedes encontrar el chollo que buscas en los lugares más insospechados. ¿Seguro que has mirado bien por todos lados?',
+    title: 'bestQualityPriceOptionTitle',
+    description: 'bestQualityPriceOptionDescription',
     gif: 'https://media.giphy.com/media/3osxY8lmLf0SvhYbBe/giphy-downsized.gif',
     slug: '/bestqualitypriceoption',
     actions: [
@@ -90,9 +85,8 @@ const routes = [
     ],
   },
   {
-    title: '¿Te sobra el dinero?',
-    description:
-      '¡Piensa que lo que compres hoy es dinero que ya no tendrás mañana! Qué reflexión tan profunda acabo de hacer para ser un cerdo...¡Oinc!',
+    title: 'doYouHaveMoneyToSpareTitle',
+    description: 'doYouHaveMoneyToSpareDescription',
     gif: 'https://media.giphy.com/media/94EQmVHkveNck/giphy-downsized.gif',
     slug: '/doyouhavemoneytospare',
     actions: [
@@ -108,9 +102,8 @@ const routes = [
     ],
   },
   {
-    title: '¿Llegas con suficiente dinero a final de mes?',
-    description:
-      'Un mes se puede hacer muy largo por una mala decisión...¿Y si esa mala decisión es darle a este botón...? Ya no podrás decir que no te han avisado...',
+    title: 'enoughtMoneyAtTheEndOfTheMonthTitle',
+    description: 'enoughtMoneyAtTheEndOfTheMonthDescription',
     gif: 'https://media.giphy.com/media/3o6UB5RrlQuMfZp82Y/giphy-downsized.gif',
     slug: '/enoughtmoneyattheendofthemonth',
     actions: [
@@ -126,9 +119,8 @@ const routes = [
     ],
   },
   {
-    title: '¿Es para ti?',
-    description:
-      'Piensa que si te autoengañas el que sufre es tu bolsillo... Además yo te veo muy bien, con este producto sólo serás un poco más pobre.',
+    title: 'itsForYouTitle',
+    description: 'itsForYouDescription',
     gif: 'https://media.giphy.com/media/AgWQwLTByaABsBQ9Zf/giphy.gif',
     slug: '/itsforyou',
     actions: [
@@ -144,9 +136,8 @@ const routes = [
     ],
   },
   {
-    title: '¿Lo puedes compartir con alguien?',
-    description:
-      'Producto compartido, gastos a medias...¿no? También puedes probar de que lo compre la otra persona y te lo preste gratis. ¡Oinc!',
+    title: 'shareItWithSomeoneTitle',
+    description: 'shareItWithSomeoneDescription',
     gif: 'https://media.giphy.com/media/iRYeYT5E8gDni/giphy-downsized.gif',
     slug: '/shareitwithsomeone',
     actions: [
@@ -162,9 +153,8 @@ const routes = [
     ],
   },
   {
-    title: '¿Es por una buena causa?',
-    description:
-      '¡Qué bonito es colaborar por una bonita causa! Eso yesButton, como no digas la verdad esta mentira te va a perseguir toda la vida...¿Podrás soportar eso? ¡Oinc!',
+    title: 'itsForAGoodCauseTitle',
+    description: 'itsForAGoodCauseDescription',
     gif: 'https://media.giphy.com/media/8vOEzk2nJpIAFMkyqT/giphy.gif',
     slug: '/itsforagoodcause',
     actions: [
@@ -180,9 +170,8 @@ const routes = [
     ],
   },
   {
-    title: '¿Es un regalo?',
-    description:
-      '¿Qué mejor que celebrar algo que con un buen regalo? Eso yesButton, tu empieza a gastar que lo que hoy es celebración a final de mes quizás se convierte en un drama...',
+    title: 'itsAPresentTitle',
+    description: 'itsAPresentDescription',
     gif: 'https://media.giphy.com/media/kKo2x2QSWMNfW/giphy-downsized.gif',
     slug: '/itsapresent',
     actions: [
@@ -198,9 +187,8 @@ const routes = [
     ],
   },
   {
-    title: '¿Lo puedes conseguir de segunda mano?',
-    description:
-      'Si buscas bien encuentras cosas sin apenas uso y mucho más baratas que comprándolas nuevas',
+    title: 'getItSecondHandTitle',
+    description: 'getItSecondHandDescription',
     gif: 'https://media.giphy.com/media/3o7budPMOMXVyvzolO/giphy-downsized.gif',
     slug: '/getitsecondhand',
     actions: [
@@ -216,9 +204,8 @@ const routes = [
     ],
   },
   {
-    title: '¿Lo puedes pedir prestado?',
-    description:
-      'Sé que tu primer impulso es comprar esto...¿pero seguro que no hay nadie de tu entorno para poder pedírselo prestado? Tendrás lo que buscas sin gastarte nada. ¡Es genial!',
+    title: 'borrowingFromSomeoneTitle',
+    description: 'borrowingFromSomeoneDescription',
     gif: 'https://media.giphy.com/media/XrP2J7AL4CYmc/giphy.gif',
     slug: '/borrowingfromsomeone',
     actions: [
@@ -234,9 +221,8 @@ const routes = [
     ],
   },
   {
-    title: '¿Lo puedes hacer tu mismo/a?',
-    description:
-      'Además de desarrollar tu parte más creativa, hacer algo manual siempre es más especial y seguro que hace más ilusión...¿A qué no te lo habías ni planteado? Yo alguna vez lo he intentado pero con mis patitas no me dan para mucho...¡Oinc, oinc!',
+    title: 'doItYourselfTitle',
+    description: 'doItYourselfDescription',
     gif: 'https://media.giphy.com/media/HXJUbsDk4kYKc/giphy-downsized.gif',
     slug: '/doityourself',
     actions: [
@@ -252,9 +238,8 @@ const routes = [
     ],
   },
   {
-    title: '¡Revisa tus prioridades!',
-    description:
-      'Parece que tienes otros asuntos por resolver antes de comprar esto que tanto te interesaba al principio. No parece que sea lo más urgente que tienes que comprar ahora mismo, ayesButton que aguanta, sé fuerte y cierra esta web sin mirar atrás. ¡Tu amigo, el cerdo del ahorro, está contigo! ¡Oinc!',
+    title: 'reviewYourPrioritiesTitle',
+    description: 'reviewYourPrioritiesDescription',
     gif: 'https://media.giphy.com/media/xUA7biThNaTvj5GiZi/giphy-downsized.gif',
     slug: '/reviewyourpriorities',
     actions: [
@@ -273,9 +258,8 @@ const routes = [
     ],
   },
   {
-    title: 'Piénsalo dos veces',
-    description:
-      'Vas a "gastar por gastar" y estás intentando autoengañarte...Por el bien de tu bolsillo mi consejo es que huyas de aquí como cerdo que huye de la ducha...¡Oinc, oinc!',
+    title: 'thinkTwiceTitle',
+    description: 'thinkTwiceDescription',
     gif: 'https://media.giphy.com/media/VqPpOjb1rOBBS/giphy-downsized.gif',
     slug: '/thinktwice',
     actions: [
@@ -294,9 +278,8 @@ const routes = [
     ],
   },
   {
-    title: '¡En qué estás pensando!',
-    description:
-      '¡Oinc! ¡Oinc! ¡Oinc! Perdona mi exaltación, que vengo a máxima velocidad (lo que alcanzan mis patitas) para impedir que cometas un error como este...Piénsatelo bien, aún estás a tiempo de tomar la decisión correcta...',
+    title: 'whatAreYouThinkingTitle',
+    description: 'whatAreYouThinkingDescription',
     gif: 'https://media.giphy.com/media/AxaKe2ImWL2Du/giphy-downsized.gif',
     slug: '/whatareyouthinking',
     actions: [
