@@ -88,7 +88,7 @@ export default ({ title, description, gif, actions }) => {
     isVisible && (
       <Wrapper>
         <Modal isDesktop={isDesktop}>
-          {isDesktop && <Logo src="https://i.imgur.com/EFaR68V.png" width="70" alt="logo" />}
+          {isDesktop && <Logo src="https://i.imgur.com/EFaR68V.png" width="60" alt="logo" />}
           <H1>{chrome.i18n.getMessage(title)}</H1>
           <Paragraph>{chrome.i18n.getMessage(description)}</Paragraph>
           <StyledImg src={gif} alt={title} />
