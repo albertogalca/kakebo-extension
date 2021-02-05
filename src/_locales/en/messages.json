@@ -12,7 +12,7 @@
     "description": "The description of the application, displayed in the web store."
   },
   "popupDescription": {
-    "message": "Oink, oink! I'm the thrifty piggy and I'm going to watch your every move to help you.",
+    "message": "Oink, oink! I'm the savings pig and I'm going to watch every move to help you.",
     "description": "popup description"
   },
   "yesButton": {
@@ -24,7 +24,7 @@
     "description": "No button"
   },
   "evaluateExtensionButton": {
-    "message": "Evaluate extension",
+    "message": "Rate extension",
     "description": "Evaluate extension button"
   },
   "takeMeOutButton": {
@@ -36,7 +36,7 @@
     "description": "Let me buy button"
   },
   "understoodButton": {
-    "message": "Understood",
+    "message": "Got it!",
     "description": "Understood button"
   },
   "nothingElseToSayTitle": {
@@ -60,7 +60,7 @@
     "description": "dontHesitateTitle"
   },
   "dontHesitateDescription": {
-    "message": "In my house this is called buying 'good, nice and cheap'... As a savings expert pig I give you a thumbs up on this purchase! Enjoy this product Oink, oink, oink!",
+    "message": "In my house, this is called buying 'good, nice and cheap'... As a savings expert pig I give you a thumbs up on this purchase! Enjoy this product Oink, oink, oink!",
     "description": "dontHesitateDescription"
   },
   "doYouNeedItTitle": {
@@ -88,7 +88,7 @@
     "description": "doYouNeedAnythingElseDescription"
   },
   "isThereACheaperAlternativeTitle": {
-    "message": "Is there a cheaper alternative?",
+    "message": "Is there a better alternative?",
     "description": "isThereACheaperAlternativeTitle"
   },
   "isThereACheaperAlternativeDescription": {
@@ -124,7 +124,7 @@
     "description": "itsForYouTitle"
   },
   "itsForYouDescription": {
-    "message": "Just think that if you deceive yourself, it's your pocket that suffers... Besides I see you very well, with this product you will only be a little poorer",
+    "message": "Just think that if you deceive yourself, it's your pocket that suffers... Besides, I see you very well, with this product you will only be a little poorer",
     "description": "itsForYouDescription"
   },
   "shareItWithSomeoneTitle": {
@@ -132,7 +132,7 @@
     "description": "shareItWithSomeoneTitle"
   },
   "shareItWithSomeoneDescription": {
-    "message": "Shared product, shared costs... right? You can also try to get the other person to buy it and lend it to you for free, orinc!",
+    "message": "Shared product, shared costs... right? You can also try to get the other person to buy it and lend it to you for free, oink!",
     "description": "shareItWithSomeoneDescription"
   },
   "itsForAGoodCauseTitle": {
@@ -164,7 +164,7 @@
     "description": "borrowingFromSomeoneTitle"
   },
   "borrowingFromSomeoneDescription": {
-    "message": "I know your first impulse is to buy this...but surely there's no one around you to borrow it from? You'll get what you're looking for without spending anything. That's great!",
+    "message": "I know your first impulse is to buy this...but surely there's no one around you to borrow it from? You'll get what you're looking for without spending any money. That's great!",
     "description": "borrowingFromSomeoneDescription"
   },
   "doItYourselfTitle": {
@@ -172,7 +172,7 @@
     "description": "doItYourselfTitle"
   },
   "doItYourselfDescription": {
-    "message": "In addition to developing your most creative side, doing something manual is always more special and surely makes more illusion ... What if you had not even considered it? I've tried it once, but with my little legs I can't do much...Oink, oink!",
+    "message": "In addition to developing your most creative side, doing something manually is always more special and surely makes more illusion ... What if you had not even considered it? I've tried it once, but with my little legs I can't do much...Oink, oink!",
     "description": "doItYourselfDescription"
   },
   "reviewYourPrioritiesTitle": {
@@ -188,11 +188,11 @@
     "description": "thinkTwiceTitle"
   },
   "thinkTwiceDescription": {
-    "message": "You're going to 'spend for the sake of spending' and you're trying to delude yourself...For the sake of your pocketbook my advice is to run away from here like a pig running away from the shower...Oink, oink!",
+    "message": "You're going to 'spend for the sake of spending' and you're trying to delude yourself...For the sake of your pocket, my advice is to run away from here like a pig running away from the shower...Oink, oink!",
     "description": "thinkTwiceDescription"
   },
   "whatAreYouThinkingTitle": {
-    "message": "¡En qué estás pensando!",
+    "message": "What are you thinking about?",
     "description": "whatAreYouThinkingTitle"
   },
   "whatAreYouThinkingDescription": {
