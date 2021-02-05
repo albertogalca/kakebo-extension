@@ -15,6 +15,7 @@ const buttonStyles = `
   display: inline-block;
   margin: 0 8px;
   box-sizing: border-box;
+  cursor: pointer;
 `;
 
 const getButtonStyle = ({ secondary }) => {
